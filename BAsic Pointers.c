@@ -7,4 +7,7 @@ int main()
     b=&a;
     a=12;
     printf("%d %d %d",a,*b,c);
+    int *d;
+    d=&a;
+    printf("%p %p",&a,d);
 }
